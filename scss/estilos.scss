@@ -1,0 +1,112 @@
+/* Importaciones */
+
+@import "index";
+@import "somos";
+@import "recetas";
+@import "talleres";
+@import "cooperativas";
+
+
+/* Variables */
+/* Verde #00703d Marron #cc9953 Celeste #acd9ec */
+
+$Verde: #00703d;
+
+/* Media Queries*/
+
+@media (max-width: 576px) {
+  .fotoMobile {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .titulo {
+    color: $Verde;
+  }
+}
+
+/* Estilos generales del cuerpo*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  text-align: justify;
+  font-family: "Prompt", sans-serif;
+  background-color: #efefde;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  margin-top: 1%;
+  background-color: #cc9953;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Estilos de Textos */
+
+.titulo {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  padding: 2%;
+  border-top: solid 3px $Verde;
+  border-bottom: solid 3px $Verde;
+  border-radius: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+strong {
+  color: #00703d;
+}
+
+/* Estilos de Imagenes */
+
+.logo {
+  margin: 1%;
+}
+
+.imagen {
+  height: 15em;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+/* Estilos del menú*/
+
+.menu {
+  font-size: larger;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  border-top: solid 1px $Verde;
+  border-bottom: solid 1px $Verde;
+  border-radius: 5%;
+  text-align: center;
+  color: black;
+
+  a {
+    outline: none;
+    text-decoration: none;
+    &:visited {
+      color: black;
+    }
+  }
+}
+
+nav ul li {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline;
+  list-style: none;
+}
+

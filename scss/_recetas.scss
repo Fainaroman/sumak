@@ -1,0 +1,30 @@
+/* Estilo de Recetas 
+igual quedaron obsoletos por ahora*/
+
+$Verde: #00703d;
+
+  .divRec {
+    margin: 20px;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    padding: 10%;
+    justify-content: space-between;
+    transition: 2s;
+    &:hover {
+      transform: scale(1.2, 1);
+      background-color: $Verde;
+      color: white;
+    }
+    &img {
+      max-width: 300px;
+      max-height: 300px;
+    }
+  }
+
+ol {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}

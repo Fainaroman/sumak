@@ -1,0 +1,23 @@
+/* Estilos de Cooperativas*/
+$Verde: #00703d;
+
+.secCoop {
+  display: grid;
+  grid-row: inherit;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  color: #cc9953;
+  margin-top: 1%;
+
+  .divCoop {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    padding: 4%;
+    text-align: center;
+
+    p {
+      text-align: justify;
+      color: black;
+    }
+  }
+}

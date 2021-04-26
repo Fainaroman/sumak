@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* Importaciones */
+/* Estilos de Index */
+.mapIndex {
+  padding: 2%; }
+
+/* Estilo de Recetas 
+igual quedaron obsoletos por ahora*/
+.divRec {
+  margin: 20px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  text-align: justify;
+  padding: 10%;
+  justify-content: space-between;
+  transition: 2s; }
+  .divRec:hover {
+    transform: scale(1.2, 1);
+    background-color: #00703d;
+    color: white; }
+  .divRecimg {
+    max-width: 300px;
+    max-height: 300px; }
+
+ol {
+  list-style: none; }
+
+ul {
+  list-style: none; }
+
+/* Estilos de Talleres */
+.videos {
+  justify-content: center; }
+  .videos div {
+    margin-top: 30px;
+    padding: 5%;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-align: center; }
+
+/* Estilos de Cooperativas*/
+.secCoop {
+  display: grid;
+  grid-row: inherit;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  color: #cc9953;
+  margin-top: 1%; }
+  .secCoop .divCoop {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    padding: 4%;
+    text-align: center; }
+    .secCoop .divCoop p {
+      text-align: justify;
+      color: black; }
+
+/* Variables */
+/* Verde #00703d Marron #cc9953 Celeste #acd9ec */
+/* Media Queries*/
+@media (max-width: 576px) {
+  .fotoMobile {
+    width: 100%;
+    margin-bottom: 3%; }
+  .titulo {
+    color: #00703d; } }
+
+/* Estilos generales del cuerpo*/
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  text-align: justify;
+  font-family: "Prompt", sans-serif;
+  background-color: #efefde; }
+
+header {
+  text-align: center; }
+
+footer {
+  margin-top: 1%;
+  background-color: #cc9953;
+  border-radius: 20px;
+  text-align: center; }
+
+/* Estilos de Textos */
+.titulo {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  padding: 2%;
+  border-top: solid 3px #00703d;
+  border-bottom: solid 3px #00703d;
+  border-radius: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+strong {
+  color: #00703d; }
+
+/* Estilos de Imagenes */
+.logo {
+  margin: 1%; }
+
+.imagen {
+  height: 15em; }
+
+.banner {
+  width: 100%;
+  margin-bottom: 1%; }
+
+/* Estilos del menú*/
+.menu {
+  font-size: larger;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  border-top: solid 1px #00703d;
+  border-bottom: solid 1px #00703d;
+  border-radius: 5%;
+  text-align: center;
+  color: black; }
+  .menu a {
+    outline: none;
+    text-decoration: none; }
+    .menu a:visited {
+      color: black; }
+
+nav ul li {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline;
+  list-style: none; }
